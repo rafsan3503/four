@@ -1,0 +1,43 @@
+/*******roadmap section*********/
+img.road_img {
+  width: 82px;
+}
+
+.road_list {
+  list-style-type: disc;
+}
+.road_list li {
+  color: #fff;
+}
+.road_card {
+  background: #191919b8;
+  padding: 37px;
+  border-radius: 8px;
+  height: 500px;
+  margin: 15px 4px;
+  border: 1px solid #ed1c24;
+}
+
+.road_card h3,
+.road_card h2 {
+  /* font-family: "Simpsonfont", sans-serif; */
+}
+.road_card ul {
+  margin: 0;
+  padding: 0;
+}
+
+.road_card ul li {
+  /* font-family: "Fishes Friends", sans-serif; */
+  margin-left: 12px;
+}
+
+.up_img {
+  width: 60%;
+}
+
+@media screen and (max-width: 768px) {
+  .up_img {
+    width: 97%;
+  }
+}
